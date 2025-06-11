@@ -1,0 +1,250 @@
+---
+title: "Machine Learning Advancements and Usage in Neuropsychological Testing and Scoring"
+subtitle: "National Association of Psychometrists 2025 Annual Meeting"
+author: "Quinton Quagliano, M.S., C.S.P."
+date: "2025-06-13"
+format: revealjs
+transition: slide
+---
+
+## Follow Along
+
+# Introduction
+
+## Learning Objectives
+
+- Describe the general goals of data analysis and statistics in both research
+and applied settings
+- Understand the core concepts and vocabulary used in machine learning/AI
+techniques
+- Compare and contrast the use-cases for "classic" statistical models versus
+those better addressed by machine learning
+- Survey the current state of research with these methods, specifically related
+to the context of neuropsychological assessment
+- Critically evaluate the practicality of using these methods in clinics, as
+well as the procedural, ethical, and statistical problems associated with the
+methods
+
+## Motivation
+
+- Born out of inspiration and frustration  
+- Public and corporate pressure to adopt new and flashy technology
+- Reflecting on my own role as both educator and consumer  
+- Omnipresence of AI- and machine learning-based tools
+- Sharing my perspective of a cautious/skeptical optimist
+
+## Purpose
+
+- Today, I will primarily focus on methods described as machine learning
+and "AI" and use cases in neuropsychological evaluation, specifically towards
+prediction of patient outcomes from psychological test scores.
+- Review some prominent and recent findings from this booming area of research
+- New benefits with these new techniques (which is exciting), but new challenges
+as well...
+- Disclaimer: Some cited articles are pre-prints and have not
+yet undergone peer-review, please review cited studies before using
+for decision-making
+
+## Why Use Data Analysis and Statistics in Neuropsych Assessment?
+
+- Evidence-based assessment  
+- Build rapport, trust, and education in patients
+- Improve validity and reliability of tests and results
+- Public and academic perception of neuropsychology as valuable patient service
+- Refinement of accuracy of diagnosis in assessment
+
+# Old Statistics, New Statistics
+
+---
+
+> ...statistical methods have a long-standing focus on inference, which is
+> achieved through the creation and fitting of a project-specific probability
+> model... By contrast, ML [machine learning] concentrates on prediction by
+> using general-purpose learning algorithms to find patterns in often rich and
+> unwieldy data" (Bzdok et al., 2018)
+
+---
+
+## Review of Inferential and Frequentist Statistics
+
+- Techniques such as z-test, t-test, ANOVA, Pearson's R, OLS linear regression
+and many others
+- Result in p-values, beta coefficients, effect sizes, etc.
+- Value comes from estimating probabilities and magnitude of outcomes, resulting
+from different variables
+- More explainable, tangible results
+- Hypothetical Example
+  - Linear regression predicting score on MoCA from age, education, gender (see
+  coefficient table to right)
+
+## Inferential Stats in the Wild
+
+- Evidence of (convergent/concurrent) validity: correlation of FSIQ between
+WAIS-IV and WAIS-5 - r = 0.92, statistically significant (Wechsler et al., 2024,
+p. 85)
+- Quantifying average differences between different types of individuals: WMS-IV
+LM I comparison between MCI (M = 8.4, SD = 2.7) and matched control group (M =
+11.4, SD = 3.0) – t = 4.93, p < 0.01. (Wechsler et al., 2009, p. 113)
+- Developing appropriate normative data to compare our patients against and
+establish relative cognitive ability (examples from Mitrushina et al., 2005, p.
+649):
+  - Rooted in meta-analytical techniques
+  - Predicting trailmaking test score from age -> 26.50094 - 0.2665049*age +
+  0.0069935*age (+ additional education correction)
+
+## Overview of Machine Learning (ML)
+
+- Involves some type of computational "learning" -> model iterates through
+available data and "trains" in some manner
+- Has existed for a long time, but has scaled up greatly with exponential rise
+in technology
+- Central goal of improving how accurate we can predict an outcome of interest
+  - Prediction of a continuous outcome -> regression
+  - Prediction of a categorial outcome -> classification
+  - Instead of focus on p-values; more focus on Mean Squared Error (MSE),
+  R-squared, etc.
+- De-prioritizes giving exact, interpretable values to variables
+- Numerous techniques in this broad family - e.g. Classification and
+Regression Trees (CART), Random Forest (RF), Gradient-boosted Models (GBM), etc.
+
+## Example: CART Model
+
+- Example - CART Model (Lavery et al., 2007)
+- Screener test (MMSE) score used as a predictor, alongside other cognitive
+tests, with dementia as outcome
+- MMSE scores are given binary splits (by the model) that produce distinct
+classification odds of dementia
+
+## What About "AI"?
+
+- Artificial intelligence, as we know it today, is largely a marketing
+term encompassing extremely powerful and computationally expensive ML
+models (Toh et al., 2019)
+- There are some literature reviews that have tried to distinguish the terms
+(see Kühl et al., 2022); but underlying mathematical methods are still the same
+as ML.
+- Still focused on stellar prediction via especially large datasets
+and high computation power
+- "Chat" services and note-writing assistance tools are using a framework called
+a "large language models" (LLMs) and are already finding use in medical settings
+(Thirunavukarasu et al., 2023).
+- LLMs involves predicting appropriate human-like language (outcome) in response
+to prompts, context, and training data (predictors).
+
+## Classic Stats vs. ML/AI
+
+| Feature            | Classic Stats     | ML/AI              |
+|--------------------|-------------------|---------------------|
+| Goal               | Explanation        | Prediction          |
+| Output             | p-values, betas    | MSE, accuracy       |
+| Interpretability   | High               | Often opaque        |
+| Data requirements  | Smaller, clean     | Large, messy        |
+
+# ML/AI in Neuropsychological Research
+
+## Scoring Tests with Trained Models
+
+- Rey-Osterrieth Complex Figure  
+- DL trained on 20,225 images  
+- Compared to human scoring  
+- (Langer et al., 2022; Park et al., 2023)
+
+## Behavior and Cognition
+
+- Eye-tracking on ROCFT  
+- ML classified executive/memory impairments  
+- (Kim et al., 2024)
+
+## Visuospatial Prediction
+
+- Intersecting Pentagons test  
+- 13,777 drawings  
+- Outperforms human scoring  
+- Extracts geometric features  
+- (Tasaki et al., 2023)
+
+## Diagnostic Classification
+
+- Meta-analysis: test ability to classify AD, MCI  
+- Implications for borderline cases  
+- (Battista et al., 2020)
+
+## Brief Screener Tools
+
+- ML-selected neuropsych batteries  
+- 4 tests: ~95% sensitivity  
+- +4 tests: even higher  
+- (Kleiman et al., 2021)
+
+## Summary of Research Applications
+
+- ML/AI can extract insights from complex test data  
+- Especially useful with large, multivariate sets  
+- Most common in visuospatial testing so far  
+- Can inform test selection and diagnostic decisions  
+
+# Caution in the Clinic
+
+## Procedural Challenges
+
+- ML and "AI" tools may be costly to develop, run, or subscribe to (in the
+case of commercial software products) and thus, may not be feasible to run on
+in-clinic hardware or purchase within budget constraints (Crawford et al., 2021)
+- Clinicians and psychometirsts need effective training in navigating and
+understanding these models to use and apply them (see Hedderich et al., 2021)
+- Depending on the setup, it may be necessary to consider how patient data
+privacy and confidentiality may be at risk when interacting with a model (Chen
+and Esmaeilzadeh, 2024)
+
+## Ethical Concerns
+
+- Though some healthcare professionals may be excited and have positive feelings
+towards AI (Catalina et al., 2023), others may be more wary and object to its
+use and the impact in may have on the workforce and staffing.
+- Providers may feel concerned in fully trusting these models in being congruent
+with their own judgments (e.g., Lebovitz et al., 2022), which is especially
+concerning given the high stakes associated with diagnostic accuracy in
+neuropsychological evaluations.
+- Patient may feel less trust in total or partial reliance in "AI" tools in
+medical care, compared to diagnostics only performed by providers
+(e.g., Clements et al., 2022)
+
+## Statistical Pitfalls
+
+- Unlike inferential statistical models, some ML and AI models deal with the
+"black box" problem of not explaining the why of how predictions are made -
+though work is being done to try to resolve this issue (Poon & Sung, 2021)
+- AI may "hallucinate", i.e., predict
+results completely incorrect or fundamentally flawed – as
+it is effectively "guessing" or estimating a correct response (Alkaissi &
+McFarlane, 2023)
+- ML and AI are reliant upon their training data and are thus biased
+towards patterns existing in that data. When confronted with a case unlike those
+in the training data, the model is liable to be biased towards
+what it already "knows" (Barocas et al., 2023)
+
+# Future Steps {#sec-future-steps}
+
+## Conclusion
+
+## Further Topics
+
+- Fuermaier et al., 2025 – AI coaching and test feigning  
+- Contact for slides or full references  
+
+## Additional Resources
+
+**Presentations**
+
+- See also: *Advances in Neuropsych Assessment of Suspected TBI* by Nicole
+Newman, PhD, CBIS & Juliette Nadershahi, BA, CSP at 1:00pm EST Today!
+
+**Academic Articles**
+
+- Jiang et al., 2017  
+- An et al., 2023  
+
+## References {#sec-refs}
+
+::: {#refs}
+:::
