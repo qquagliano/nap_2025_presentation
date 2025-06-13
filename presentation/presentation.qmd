@@ -249,7 +249,7 @@ to prompts, context, and training data (predictors).
 - Rey-Osterrieth Complex Figure  
 - DL trained on 20,225 images  
 - Compared to human scoring  
-- [@langer_ai_nodate; @park_automating_2023]
+- [@langer_ai_2024; @park_automating_2023]
 
 :::: {.columns}
 
