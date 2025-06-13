@@ -40,6 +40,8 @@ link-bibliography: true
 
 - I have no disclosures or conflicts-of-interests related to this presentation
 
+![](./imgs/spongebob_meme.jpg)
+
 ## Learning Objectives
 
 - Describe the general goals of data analysis and statistics in both research
