@@ -173,6 +173,8 @@ in technology
 
 - De-prioritizes giving exact, interpretable values to variables
 
+- Is especially well suited to dealing with MANY different variables at one time
+
 - Numerous techniques in this broad family - e.g. Classification and
 Regression Trees (CART), Random Forest (RF), Gradient-boosted Models (GBM), etc.
 
@@ -199,6 +201,10 @@ classification odds of dementia
 
 ## What About "AI"?
 
+:::: {.columns}
+
+::: {.column width="60%"}
+
 - Artificial intelligence, as we know it today, is largely a marketing
 term encompassing extremely powerful and computationally expensive ML
 models [@toh_looking_2019]
@@ -216,6 +222,15 @@ a "large language models" (LLMs) and are already finding use in medical setting
 
 - LLMs involves predicting appropriate human-like language (outcome) in response
 to prompts, context, and training data (predictors).
+:::
+
+::: {.column width="40%"}
+![](./imgs/copilot.png)
+
+![](./imgs/openai.jpg)
+:::
+
+::::
 
 ## Classic Stats vs. ML/AI
 
@@ -234,13 +249,31 @@ to prompts, context, and training data (predictors).
 - Rey-Osterrieth Complex Figure  
 - DL trained on 20,225 images  
 - Compared to human scoring  
-- [@langer_ai_nodate; @park_automating_2023)
+- [@langer_ai_nodate; @park_automating_2023]
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](./imgs/rey.png)
+:::
+
+::: {.column width="50%"}
+![](./imgs/rey_mis.png)
+:::
+
+::::
+
+![](./imgs/rey_ai.png)
 
 ## Behavior and Cognition
 
 - Eye-tracking on ROCFT  
 - ML classified executive/memory impairments  
 - [@kim_development_2024]
+
+![](./imgs/rey_eye.png)
+
+![](./imgs/rey_eye_table.png)
 
 ## Visuospatial Prediction
 
@@ -250,11 +283,15 @@ to prompts, context, and training data (predictors).
 - Extracts geometric features  
 - [@tasaki_explainable_2023]
 
+![](./imgs/pent.png)
+
 ## Diagnostic Classification
 
 - Meta-analysis: test ability to classify AD, MCI  
 - Implications for borderline cases  
 - [@battista_artificial_2020]
+
+![](./imgs/pie.png)
 
 ## Summary of Research Applications
 
@@ -288,7 +325,7 @@ towards AI [@catalina_knowledge_2023], others may be more wary and object to 
 use and the impact in may have on the workforce and staffing.
 
 - Providers may feel concerned in fully trusting these models in being congruent
-with their own judgments (e.g., Lebovitz et al., 2022), which is especially
+with their own judgments [@lebovitz_engage_2022], which is especially
 concerning given the high stakes associated with diagnostic accuracy in
 neuropsychological evaluations.
 
@@ -322,23 +359,30 @@ what it already "knows" [@barocas_fairness_2023]
 analysis in neuropsychology, there are still many considerations to balance and
 consider in applying these ideas
 
+- Return to why we use statistics and quantitative analysis in practice, does
+use of these new technologies support and enhance these?:
+  - Evidence-based assessment  
+  - Build rapport, trust, and education in patients
+  - Improve validity and reliability of tests and results
+  - Public and academic perception of neuropsychology as valuable patient service
+  - Refinement of accuracy of diagnosis in assessment
+
 - Psychometrists should be deliberate in building up a sufficient knowledge of
 these technological advantages to weigh how to implement them in practice
 
 ## Further Topics
 
-- @fuermaier_chatgpt_2025 – AI used by patients to coach towards successful test
-feigning in ADHD evaluations, implications toward test security and performance
-validity
-
-- @devine_using_2024 - Using advanced models to attempt to better address
-cultural deficiencies and bias in tests
-
-- @halkiopoulos_leveraging_2024 - Application of ML/AI to computerized adaptive
-testing, more personalized assessment
-
-- @emsley_chatgpt_2023 - When AI fabricates citations and other evidence in
-support of it's statements
+- If you're interested in more topics surrounding the intersection of machine
+learning and evaluation:
+  - @fuermaier_chatgpt_2025 – AI used by patients to coach towards successful test
+  feigning in ADHD evaluations, implications toward test security and performance
+  validity
+  - @devine_using_2024 - Using advanced models to attempt to better address
+  cultural deficiencies and bias in tests
+  - @halkiopoulos_leveraging_2024 - Application of ML/AI to computerized adaptive
+  testing, more personalized assessment
+  - @emsley_chatgpt_2023 - When AI fabricates citations and other evidence in
+  support of it's statements
 
 ## Additional Resources
 
