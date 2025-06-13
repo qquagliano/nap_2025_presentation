@@ -36,6 +36,10 @@ link-bibliography: true
 
 :::
 
+## Disclosure
+
+- I have no disclosures or conflicts-of-interests related to this presentation
+
 ## Learning Objectives
 
 - Describe the general goals of data analysis and statistics in both research
@@ -161,6 +165,7 @@ establish relative cognitive ability - examples from [@mitrushina_handbook_2005 
 
 - Involves some type of computational "learning" -> model iterates through
 available data and "trains" in some manner
+  - Train -> Fit -> Assess -> Repeat
 
 - Has existed for a long time, but has scaled up greatly with exponential rise
 in technology
@@ -383,6 +388,8 @@ learning and evaluation:
   testing, more personalized assessment
   - @emsley_chatgpt_2023 - When AI fabricates citations and other evidence in
   support of it's statements
+  - @amini_prediction_2024 - Prediction of dementia progress via AI analysis of
+  voice recording
 
 ## Additional Resources
 
