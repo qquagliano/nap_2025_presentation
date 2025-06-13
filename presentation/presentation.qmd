@@ -190,7 +190,7 @@ to prompts, context, and training data (predictors).
 - ML and "AI" tools may be costly to develop, run, or subscribe to (in the
 case of commercial software products) and thus, may not be feasible to run on
 in-clinic hardware or purchase within budget constraints (Crawford et al., 2021)
-- Clinicians and psychometirsts need effective training in navigating and
+- Clinicians and psychometrists need effective training in navigating and
 understanding these models to use and apply them (see Hedderich et al., 2021)
 - Depending on the setup, it may be necessary to consider how patient data
 privacy and confidentiality may be at risk when interacting with a model (Chen
