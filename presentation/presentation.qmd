@@ -76,6 +76,9 @@ focused research [@duede_oil_2024]
 
 - Sharing my perspective of a cautious/skeptical optimist
 
+> "Any sufficiently advanced technology is indistinguishable from magic." -
+Arthur C. Clark
+
 ## Purpose
 
 - Today, I will primarily focus on methods described as machine learning
@@ -271,6 +274,8 @@ to prompts, context, and training data (predictors).
 ::::
 
 ![](./imgs/rey_ai.png)
+
+![](./imgs/rey_comparison.png)
 
 ## Behavior and Cognition
 
